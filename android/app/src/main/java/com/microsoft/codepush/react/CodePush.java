@@ -292,11 +292,7 @@ public class CodePush implements ReactPackage {
         return nativeModules;
     }
 
-    @Override
-    public List<Class<? extends JavaScriptModule>> createJSModules() {
-        return new ArrayList<>();
-    }
-
+    
     @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactApplicationContext) {
         return new ArrayList<>();
